@@ -1,0 +1,152 @@
+﻿/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content: '';
+        content: none;
+    }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    background: linear-gradient(120deg, #6d41a4, #363073);
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 3%;
+}
+
+.home-intro {
+    background-size: cover;
+    height: 30vh;
+    overflow: hidden;
+    position: relative;
+}
+
+    .home-intro h1 {
+        text-align: center;
+        font-family: cursive;
+        font-size: 164%;
+        margin-bottom: 3%;
+    }
+
+.cor-laranja {
+    color: #f16227;
+}
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+    text-decoration: none;
+}
+
+#FormSangueLaranja .menuSangueSaranja {
+    background: linear-gradient(120deg, #383f47, #23292f);
+    height: 370px;
+    position: relative;
+    color: #ffffff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.home-intro .menu-button {
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Raleway Light', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    outline: none;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    -webkit-transition: border-color 400ms, color 400ms;
+    -moz-transition: border-color 400ms, color 400ms;
+    transition: border-color 400ms, color 400ms;
+}
+
+.display-5 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.erro {
+    color: red;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.display-salario {
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.btn-smm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+}
+
+.nConta {
+    width: 31%;
+}
+
+.nCorrentista {
+    width: 33%;
+}
+
+.txtConta {
+    width: 76% !important;
+}

@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Page.master.cs" Inherits="FCamara.Page" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>PS</title>
+    <link href="Content/css/estilo.css" rel="stylesheet" />
+    <link href="Content/css/bootstrap.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="FormSangueLaranja" runat="server">
+        <div class="home-intro">
+            <img src="~/Content/img/logo_png.png" runat="server" id="logo" title="FCamara" />
+            <h1 class="cor-laranja">Processo Seletivo 2018.2</h1>
+            <div class="text-center">
+                <a class="menu-button" href="Questao1.aspx">Questão 1</a>
+                <a class="menu-button" href="Questao2.aspx">Questão 2</a>
+                <a class="menu-button" href="Questao3.aspx">Questão 3</a>
+                <a class="menu-button" href="Questao4.aspx">Questão 4</a>
+                <a class="menu-button" href="Questao5.aspx">Questão 5</a>
+                <a class="menu-button" href="Questao6.aspx">Questão 6</a>
+            </div>
+        </div>
+        <div class="menuSangueSaranja cor-font-branco">
+            <div class="row">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
